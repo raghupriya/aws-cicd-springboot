@@ -7,7 +7,7 @@ phases:
      commands:
      - echo "Entered the build phase"
      - mvn clean prepare-package war:explode      
-post-_uild:
+post_build:
   commands:
     - echo "Entered the post-bld phase 
    artifacts:

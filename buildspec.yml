@@ -9,7 +9,7 @@ phases:
      - mvn clean prepare-package war:explode      
 post_build:
   commands:
-    - echo "Entered the post-bld phase 
+    - echo "Entered the post-bld phase"
    artifacts:
      files:
       - deploy/**/*
